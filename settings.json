@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "NPC",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "NPC",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "pvpsmp-QdJn.aternos.me:41362",
-    "port": 41362,
+    "ip": "mythicalmines.aternos.me",
+    "port": 27327,
     "version": "1.21.1"
   },
   "position": {
@@ -18,7 +18,7 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "Slobos"
     },
     "anti-afk": {
@@ -28,12 +28,12 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeat-delay": 1000000000000,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "For any quries contact oglife discord= og_life"
       ]
+        
+      
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -77,7 +77,7 @@
     "place-night": true
   },
   "discord": {
-    "enabled": true,
+    "enabled": false,
     "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
     "events": {
       "connect": true,
